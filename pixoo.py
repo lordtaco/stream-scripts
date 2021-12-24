@@ -1,5 +1,6 @@
 """
 Pixoo 
+This code is based entirely on the pixoo-client by virtualabs: https://github.com/virtualabs/pixoo-client/
 """
 
 import sys
