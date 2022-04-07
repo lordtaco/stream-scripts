@@ -1,6 +1,7 @@
 <?php
+require_once('config.php');
 
-$conn = new mysqli("localhost", "lordtaco", "xxxxxxxxx", "lordtaco");
+$conn = new mysqli(MYSQL_HOST, MYSQL_USER, MYSQL_PASS, MYSQL_DB);
 
 if(isset($_GET['username']) && trim($_GET['username']) != '')
 {
