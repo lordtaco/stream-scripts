@@ -7,4 +7,6 @@ random_game.php - This script selects a random number from a set number of recor
 
 pixoo.py - This is a Python3 script for sending a custom image to a Divoom Pixoo Max. You may need to install additional libraries for Bluetooth and image manipulation support. USAGE: pixoo.py -u (URL to square image) This will download the image and encode/send it to the Pixoo Max. If the script is run with no argument, it will put the Pixoo Max into some kind of "demo mode" where it just cycles through animations. Based entirely on the pixoo-client library from virtualabs: https://github.com/virtualabs/pixoo-client/
 
-steveharvey.py - Small Python script that uses the UberDuck wrapper to generate a Steve Harvey voice for the text to speech commands. Falls back to a PowerShell script that runs the default MS voice if the UberDuck API fails.
+tts-uberduck.py - Small Python script that uses the UberDuck wrapper to generate a custom voice for the text to speech commands. Falls back to a PowerShell script that runs the default MS voice if the UberDuck API fails.
+
+customvoice.php - Script for storing/retrieving the custom voice for a user when they redeem text to speech.
